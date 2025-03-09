@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+</head>
+<style>
+    .formulario {
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        border: solid #000 1px;
+        padding: 15px;
+    }
+
+    .formulario label,
+    .formulario input {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .formulario input[type="button"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none; 
+        cursor: pointer; 
+    }
+
+    .formulario input[type="button"]:hover {
+        background-color: #3e8e41;
+    }
+</style>
+<body>
+    <form action="" class="formulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido">
+        <label for="telefono">Telefono</label>
+        <input type="phone" name="telefono">
+        <label for="email">Correo Electronico</label>
+        <input type="email" name="email">
+        <input type="button" value="Enviar">
+    </form>
+</body>
+</html>
